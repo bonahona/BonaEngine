@@ -1,3 +1,4 @@
 ﻿  Main.cpp
-  TriangleTest.vcxproj -> C:\Users\Bona\Documents\Visual Studio 2015\Projects\TriangleTest\x64\Debug\TriangleTest.exe
-  TriangleTest.vcxproj -> C:\Users\Bona\Documents\Visual Studio 2015\Projects\TriangleTest\x64\Debug\TriangleTest.pdb (Partial PDB)
+c:\users\bona\documents\visual studio 2015\projects\bonaengine\triangletest\triangletest\main.cpp(617): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  TriangleTest.vcxproj -> C:\Users\bona\Documents\Visual Studio 2015\Projects\BonaEngine\TriangleTest\x64\Debug\TriangleTest.exe
+  TriangleTest.vcxproj -> C:\Users\bona\Documents\Visual Studio 2015\Projects\BonaEngine\TriangleTest\x64\Debug\TriangleTest.pdb (Partial PDB)
