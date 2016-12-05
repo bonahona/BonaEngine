@@ -77,8 +77,10 @@
     <LibraryPath>C:\VulkanSDK\1.0.33.0\Bin;C:\Users\Bona\Documents\Visual Studio 2015\Projects\VulkanTest\Libraries\glfw-3.2.1.bin.WIN64\lib-vc2015;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\VulkanSDK\1.0.33.0\Include;C:\Users\bona\Documents\Visual Studio 2015\Projects\BonaEngine\TriangleTest\Libraries\glm;C:\Users\bona\Documents\Visual Studio 2015\Projects\BonaEngine\TriangleTest\Libraries\glfw-3.2.1.bin.WIN64\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\bona\Documents\Visual Studio 2015\Projects\BonaEngine\TriangleTest\Libraries\stb-master;C:\VulkanSDK\1.0.33.0\Include;C:\Users\bona\Documents\Visual Studio 2015\Projects\BonaEngine\TriangleTest\Libraries\glm;C:\Users\bona\Documents\Visual Studio 2015\Projects\BonaEngine\TriangleTest\Libraries\glfw-3.2.1.bin.WIN64\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\VulkanSDK\1.0.33.0\Bin;C:\Users\bona\Documents\Visual Studio 2015\Projects\BonaEngine\TriangleTest\Libraries\glfw-3.2.1.bin.WIN64\lib-vc2015;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\VulkanSDK\1.0.33.0\Include;C:\Users\Bona\Documents\Visual Studio 2015\Projects\VulkanTest\Libraries\glm;C:\Users\Bona\Documents\Visual Studio 2015\Projects\VulkanTest\Libraries\glfw-3.2.1.bin.WIN64\include;$(IncludePath)</IncludePath>
